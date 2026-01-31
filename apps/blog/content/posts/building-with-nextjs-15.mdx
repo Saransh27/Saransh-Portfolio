@@ -1,0 +1,39 @@
+---
+title: 'Building Modern Apps with Next.js 15'
+date: '2026-01-30'
+author: 'Your Name'
+excerpt: 'Exploring the latest features and best practices in Next.js 15'
+---
+
+# Building Modern Apps with Next.js 15
+
+Next.js 15 brings significant improvements to the React ecosystem. Let's explore the key features.
+
+## Server Components
+
+React Server Components are now stable and production-ready. They allow you to:
+
+- Reduce bundle size
+- Improve performance
+- Simplify data fetching
+
+```typescript
+// Server Component example
+async function getData() {
+  const res = await fetch('https://api.example.com/data');
+  return res.json();
+}
+
+export default async function Page() {
+  const data = await getData();
+  return <div>{data.title}</div>;
+}
+```
+
+## Partial Prerendering
+
+PPR combines static and dynamic rendering in a single page.
+
+## Conclusion
+
+Next.js 15 is a powerful framework for building modern web applications.

@@ -1,0 +1,20 @@
+{
+  "common": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "role": "Engineering Manager and Full Stack Developer",
+    "description": "Building modern web applications with cutting-edge technologies"
+  },
+  "accessibility": {
+    "fontSize": "Font Size",
+    "increase": "Increase font size",
+    "decrease": "Decrease font size",
+    "reset": "Reset font size"
+  }
+}

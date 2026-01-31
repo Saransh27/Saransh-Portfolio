@@ -1,0 +1,20 @@
+{
+  "common": {
+    "home": "Accueil",
+    "about": "À propos",
+    "projects": "Projets",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Salut, je suis",
+    "role": "Développeur Full Stack",
+    "description": "Création d'applications web modernes avec des technologies de pointe"
+  },
+  "accessibility": {
+    "fontSize": "Taille de police",
+    "increase": "Augmenter la taille de la police",
+    "decrease": "Diminuer la taille de la police",
+    "reset": "Réinitialiser la taille de la police"
+  }
+}
